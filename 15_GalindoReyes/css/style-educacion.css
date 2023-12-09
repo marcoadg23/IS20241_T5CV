@@ -1,0 +1,53 @@
+#item2{
+    color: #99d0d0;
+}
+.Cajaflex{
+    padding: 50px;
+    padding-top: 10px;
+    margin-top: 250px;
+    text-align: center;
+    align-items: center;
+    border-right:solid #1a1b20 2px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200px;
+}
+h3{
+    margin-top: 10%;
+}
+p{
+    text-align: justify;
+    margin-top: 10%;
+}
+#seccion1{
+    margin-top: 300px;
+    width: 30%;
+    height: 300px;
+
+}
+#seccion1 img{
+    width: 30%;
+
+}
+#seccion2{
+    margin-top: 300px;
+    width: 30%;
+    height: 300px;
+
+}
+#seccion2 img{
+    width: 30%;
+
+}
+#seccion3{
+    margin-top: 300px;
+    width: 30%;
+    height: 300px;
+
+}
+#seccion3 img{
+    width: 30%;
+
+}

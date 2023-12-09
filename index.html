@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Listado de Carpetas</title>
+</head>
+<body>
+  <h1>Listado de Carpetas</h1>
+  <ul id="lista-carpetas"></ul>
+
+  <script>
+    // Función para obtener la lista de carpetas y generar enlaces
+    function obtenerCarpetas() {
+      const listaElementos = document.getElementById('lista-carpetas');
+      const listaCarpetas = [];
+
+      const archivos = ['01_AguilarPerez', '02_ArroyoLlanes', '03_BolanosGuerrero', '04_CarrilloCastaneda', '05_CastilloMartinez', '06_ChongHernandez', '07_CruzHernandez', '08_CruzMaldonado', '09_DeLaMercedSoriano', '10_DominguezChavez', '11_DuranFernandez', '12_EscamillaSuarez', '13_FigueroaSolano', '14_FloresChavez', '15_GalindoReyes', '16_GarciaLopez', '17_GarciaMartinez', '18_GomezVarela', '19_GonzalezArredondo', '20_GutierrezAvila', '21_HernandezCabañas', '22_HernandezGarcia', '23_HernandezRamirez', '24_HernandezRomero', '25_HernandezRuizDeEsparza', '27_JimenezGutierrez', '28_LunaReyes', '29_MarcelinPalomares', '30_MartinezPerez', '31_MedinaGuzman', '32_PachecoPacheco', '33_PelaezSemprun', '34_PinedaGalindo', '35_PozosHernandez', '37_RodriguezRodriguez', '38_SanchezCalvillo', '39_TorresPimentel', '40_VencesSantillan', '41_VieyraMarquez', '42_ZuritaCamara'];
+
+      archivos.forEach(archivo => {
+        const carpeta = archivo;
+
+        if (!listaCarpetas.includes(carpeta)) {
+          listaCarpetas.push(carpeta);
+
+          const elementoLista = document.createElement('li');
+          const enlace = document.createElement('a');
+          enlace.textContent = carpeta;
+          enlace.href = carpeta + '/index.html';
+          elementoLista.appendChild(enlace);
+          listaElementos.appendChild(elementoLista);
+        }
+      });
+    }
+
+    // Llamar a la función para obtener la lista al cargar la página
+    window.onload = obtenerCarpetas;
+  </script>
+</body>
+</html>

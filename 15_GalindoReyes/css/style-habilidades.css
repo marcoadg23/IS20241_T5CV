@@ -1,0 +1,89 @@
+#item3{
+    color: #99d0d0;
+}
+h3{
+    font-size: 10px;
+}
+.Cuerpo{
+    padding-top: 240px;
+    min-width: 1100px;
+    border: solid 0.01px #ffffff;
+    border-bottom:solid 2px #1a1b20 ;
+    border-radius: 10%;
+}
+.Cajaflex{
+    /*background: #99d0d0;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 250px;
+    width: 50%;
+    text-align: center;
+    padding: 100px;
+}
+#Cuerpo2{
+    padding-top: 100px; 
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.objAptitudes , .objHabilidades{
+    margin-top: 5px;
+    text-align: left;
+}
+#seccion1{
+    width: 30%;
+    min-width: 250px;
+    border: solid 0.1px #ffffff;
+    border-right: solid 3px #1a1b20 ;
+    border-radius: 10%;
+    margin: 0;    
+}
+#seccion1 img{
+    display: inline;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 25%;  
+}
+p{
+    text-align: left;
+}
+#seccion2{
+    width: 100%;
+
+}
+#Box-tecnologias{
+    margin-top: 30px;
+    display: inline-flex;
+    text-align: left;
+}
+.tecnologia{
+    margin-left: 20px;  
+}
+
+#seccion2 img{
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    width: 80px;
+}
+#seccion3{
+    width: 80%;
+}
+#seccion4{
+    border: solid 0.1px #ffffff;
+    border-left: solid 3px #1a1b20 ;
+    border-radius: 15%;
+    width: 30%;
+    min-width: 250px;
+    margin: 0; 
+
+}
+
+#seccion4 img{
+    display: inline;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 25%;  
+}
